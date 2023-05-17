@@ -1,0 +1,614 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.full-body {
+  background-color: #f2f2f2;
+
+}
+
+/* ......this is menu bar header  part ......  */
+
+.menubar-header-part {
+  width: 100%;
+  display: flex;
+
+
+}
+
+.menubar-head-1 img {
+  width: 150px;
+
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+
+
+.menubar-head-2 {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 200px;
+
+  border: 1px solid black;
+
+
+}
+
+.catagory-choose {
+  margin-top: px;
+  padding: 15px;
+  background-color: rgb(235, 235, 228);
+}
+
+.catagory-choose a {
+  text-decoration: none;
+  font-size: 15px;
+  padding: 15px;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.search-bar {
+  width: 450px;
+  padding: 15px;
+  border: none;
+  outline: none;
+}
+
+.search-btn {
+  cursor: pointer;
+  width: 60px;
+  border: none;
+  background-color: tomato;
+}
+
+
+.menubar-head-3 {
+  margin-left: 140px;
+  margin-top: 22px;
+}
+
+.menubar-head-3 img {
+  width: 40px;
+  margin-left: 30px;
+  border-radius: 100px;
+}
+
+
+/* ......this is menu bar header  part ......  */
+
+/* ..... this is img slider img zone ..... */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+.slider-cat-p {
+  width: 100%;
+  display: flex;
+  margin-top: 25px;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.slider-cat-l {
+  width: 18%;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.slider-cat-l a {
+
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  padding: 15px;
+  line-height: 38px;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.slider-cat-l a:hover {
+  color: red;
+}
+
+
+.slider-img-part {
+  margin-left: 35px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: rgb(204, 101, 101);
+  /* background-color: #717171; */
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+
+.slider-img {
+  width: 750px;
+  height: 450px;
+}
+
+.slider-img-r {
+  margin-left: 20px;
+}
+
+.slider-img-r img {
+  width: 280px;
+  height: 450px;
+}
+
+/* ..... this is img slider img zone ..... */
+
+/* .....this is content zone ..... */
+.todays-deal-head h4 {
+  font-size: 18px;
+  color: gray;
+  margin-top: 35px;
+  margin-left: 30px;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.todays-deal-all {
+  margin: 0;
+  width: 98%;
+ 
+  display: flex;
+  margin-left: 25px;
+  margin-top: 15px;
+  background-color: #fff;
+
+
+}
+
+.best-deal-all {
+  width: 100%;
+  height: 300px;
+  padding: 7px;
+   
+
+}
+
+.best-deal-all:hover {
+  /* margin-bottom: 15px; */
+  cursor: pointer;
+  border: 1px solid #f2f2f2;
+  box-shadow: 1px 1px 1px 1px gray;
+  transition-delay: 0.2s;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.best-deal-all img {
+  width: 180px;
+  height: 200px;
+  /* margin-top: 10px; */
+
+}
+
+.best-deal-all p {
+  margin-left: 20px;
+  margin-top: 25px;
+  line-height: 5px;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+/* ...... this is just for you part ...... */
+
+.just-fy-head {
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.just-fy-head a {
+  text-decoration: none;
+  color: gray;
+  font-size: 20px;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+}
+
+.just-for-you-con {
+  display: flex;
+  width: 100%;
+  margin-top: 25px;
+  cursor: pointer;
+  /* border: 1px solid black; */
+}
+
+.just-for-you-all-con {
+  width: 18%;
+  height: 370px;
+  margin-left: 25px;
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+.just-for-you-all-con img {
+  width: 220px;
+  margin-left: 10px;
+}
+
+.just-for-you-det {
+  width: 100%;
+  line-height: 25px;
+  margin-top: 25px;
+  
+}
+
+.just-for-you-det p {
+  width: 100%;
+  font-size: 15px;
+  margin-left: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.just-for-you-det a{
+  text-decoration: none;
+  color: black;
+   cursor: pointer;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.just-for-you-det a:hover{
+  color: red;
+}
+/* ...... this is just for you part ...... */
+
+/* .....this is content zone ..... */
+
+
+/* ...this is footer part ..... */
+ 
+
+.footer-part{
+  position: relative;
+  width: 100%;
+  height: 250px;
+ display: flex;
+ margin-top: 40px;
+ background-color: #2e2e54;
+ color: white;
+ padding: 15px;
+  
+}
+
+.footer-part-1{
+  
+  width: 25%;
+ 
+
+}
+.footer-part-2{
+ 
+  width: 25%;
+}
+.footer-part-3{
+ 
+  width: 25%;
+
+}
+.footer-part-4{
+  
+  width: 25%;
+}
+
+
+.service-det{
+ 
+  margin-left: 40px;
+  margin-top: 15px;
+  padding: 7px;
+}
+
+.service-det a{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  line-height: 25px;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+.service-det a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.about-us-det{
+  margin-left: 160px;
+  margin-top: 15px;
+  padding: 7px;
+}
+.about-us-det a{
+  text-decoration: none;
+  color: white;
+ line-height: 22px;
+
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+.about-us-det a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.sell-det{
+  margin-left: 220px;
+  margin-top: 20px;
+}
+.sell-det a{
+  text-decoration: none;
+  color: white;
+  line-height: 25px;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.sell-det a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.earn-det{
+  margin-left: 200px;
+  margin-top: 20px;
+}
+.earn-det a{
+  text-decoration: none;
+  color: white;
+  line-height: 25px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.earn-det a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* ...this is footer part ..... */
+
+/* ...this is copyright part..... */
+.copyright-part{
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.copyright-part p{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.copyright-part a{
+  text-decoration: none;
+  color: blue;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+/* ...this is copyright part..... */
+
+/* ...this is media viewport zone .... */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.full-body{
+  width: 1400px;
+ 
+}
+
+.todays-deal-all{
+  width: 1360px;
+}
+
+ .slider-img-r img{
+  width: 250px;
+  margin-left: 15px;
+ }
+
+ .slider-img{
+  width: 800px;
+ }
+
+}
+
+ 
+ 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .full-body{
+    width: 1500px;
+   
+  }
+  
+  .todays-deal-all{
+    width: 1448px;
+  }
+  
+   .slider-img-r img{
+    width: 320px;
+    margin-left: 15px;
+   }
+  
+   .slider-img{
+    width: 800px;
+   }
+  
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+
+.menubar-head-2{
+   /* width: 1200px; */
+   margin-left: 250px;
+}
+
+ 
+
+.menubar-head-3{
+  margin-left: 380px;
+}
+.menubar-head-3 img{
+  width: 40px;
+}
+
+  .full-body{
+    width: 1680px;
+   
+  }
+  .best-deal-all p{
+    margin-left: 55px;
+  }
+  .todays-deal-all{
+    width: 1630px;
+    height: 350px;
+  }
+  .best-part p{
+    margin-left: 45px;
+  }
+ 
+
+  .best-deal-all img{
+    margin-left: 35px;
+    margin-top: 25px;
+  }
+
+  
+   .slider-img-r img{
+    width: 280px;
+    margin-left: 5px;
+   }
+  
+   .slider-img{
+    width: 1000px;
+    height: 450px;
+   }
+
+   .just-for-you-all-con img{
+    width: 250px;
+    margin-left: 30px;
+   }
+
+
+   .just-for-you-det p{
+    width: 280px;
+   }
+
+   .just-for-you-all-con{
+    height: 420px;
+   }
+   .footer-par1{
+    width: 50%;
+   }
+
+   .footer-par2{
+    width: 80%;
+    margin-left: 80px;
+   }
+   .footer-par3{
+    width: 90%;
+    margin-left: 90px;
+   }
+    
+   .footer-par4{
+    width: 80%;
+    margin-left: 50px;
+   }
+
+}
+
+/* ...this is media viewport zone .... */
